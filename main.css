@@ -1,6 +1,7 @@
 * {
   padding: 0;
   margin: 0;
+  /* transition: all 1s ease-in-out; */
 }
 
 body {
@@ -26,7 +27,7 @@ body {
     width: 100%;
 } */
 .nav {
-  margin: 24px 0px 24px  0px;
+  margin: 24px 0px 24px 0px;
   /* padding: 48px; */
 }
 .all {
@@ -53,7 +54,7 @@ body {
 .signin_btn {
   padding: 3px;
 }
-.signin_btn button {
+.signin_btn .fbtn-1 {
   background-color: rgb(229, 9, 20);
   color: white;
   border: none;
@@ -102,14 +103,108 @@ body {
   text-align: left;
 }
 
-.txt{
-    margin-top: 16px;
+.txt {
+  margin-top: 16px;
 }
-.txt p{
-    font-size: 24px;
-    font-weight: 500;
+.txt p {
+  font-size: 24px;
+  font-weight: 500;
 }
-.txt h3{
+.txt h3 {
+  font-size: 20px;
+  font-weight: 400;
+  padding-bottom: 16px;
+}
+
+.get-started {
+  display: flex;
+  margin-top: 16px;
+}
+.box {
+  display: block;
+  width: 100%;
+  padding-top: 16px;
+}
+
+/* .type-text{
+    display: flex;
+    border: 1px solid white;
+    border-radius: 5px;
+    max-width: 61rem;
+    padding: 1rem 1rem .5rem;
+} */
+input {
+  /* border: none; */
+  border: 1px solid rgb(253, 253, 253);
+  border-radius: 5px;
+  width: 376px;
+  height: 56px;
+  font-size: 16px;
+  background-color: transparent;
+  padding-left: 20px;
+}
+input::placeholder {
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.fbtn-2 {
+  width: 201px;
+  height: 56px;
+  border-radius: 5px;
+}
+.user-input,
+button {
+  display: flex;
+  align-items: center;
+}
+
+.fbtn-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(229, 9, 20);
+  border: none;
+  margin-left: 10px;
+  color: white;
+  font-size: 24px;
+  font-weight: 600;
+}
+.sign-in1 {
+    color: white;
+    display: absolute;
+    top: 1;
+}
+.ico{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.s1{
+    padding: 12px 136px;
+}
+.s1all{
+    display: flex;
+    align-items: center;
+
+}
+.s1all .s1-head{
+font-size: 48px;
+font-weight: 900;
+}
+
+.s1all .s1-head2{
     font-size: 20px;
-    font-weight: 400;
-}
+    font-weight: 500;
+    padding-top: 20px;
+    }
+
+    .s1all img{
+        width: 48%;
+        height: auto;
+        position: relative;
+        top: 0;
+        left: 10px;
+    }
