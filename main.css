@@ -1,0 +1,115 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Netflix-sans", "poppins";
+  background-color: #00081d;
+  color: white;
+  /* background-image: linear-gradient(
+      65.68deg,
+      rgba(0, 8, 29, 0.6) 9.51%,
+      rgba(53, 13, 49, 0.6) 72.89%,
+      rgba(132, 5, 25, 0.6) 101.01%
+    ),
+    linear-gradient(
+      102.21deg,
+      rgba(0, 0, 0, 0.04) 16.09%,
+      rgba(1, 1, 1, 0.17) 39.27%,
+      rgba(1, 1, 1, 0.24) 64.25%,
+      rgba(4, 4, 4, 0.8) 96.63%
+    ),
+    url(https://assets.nflxext.com/ffe/siteui/vlv3/70805ddd-f38c-4e25-94cd-b5015e444ee0/1f8bf493-1be8-440e-b5ac-1b2985346176/NG-en-20230508-popsignuptwoweeks-perspective_alpha_website_large.jpg); */
+}
+/* .container{
+    width: 100%;
+} */
+.nav {
+  margin: 24px 0px 24px  0px;
+  /* padding: 48px; */
+}
+.all {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.nav .content {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+}
+.logo {
+  width: 9.25rem;
+  height: 2.5rem;
+  color: rgba(229, 9, 20, 1);
+  fill: currentColor;
+  display: block;
+  margin-right: 950px;
+}
+
+.signin_btn {
+  padding: 3px;
+}
+.signin_btn button {
+  background-color: rgb(229, 9, 20);
+  color: white;
+  border: none;
+  font-size: 16px;
+  padding: 7px 12px;
+  border-radius: 5px;
+}
+.banner {
+  width: 1268px;
+  min-height: 100vh;
+  border-radius: 16px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: linear-gradient(
+      65.68deg,
+      rgba(0, 8, 29, 0.6) 9.51%,
+      rgba(53, 13, 49, 0.6) 72.89%,
+      rgba(132, 5, 25, 0.6) 101.01%
+    ),
+    linear-gradient(
+      102.21deg,
+      rgba(0, 0, 0, 0.04) 16.09%,
+      rgba(1, 1, 1, 0.17) 39.27%,
+      rgba(1, 1, 1, 0.24) 64.25%,
+      rgba(4, 4, 4, 0.8) 96.63%
+    ),
+    url(https://assets.nflxext.com/ffe/siteui/vlv3/70805ddd-f38c-4e25-94cd-b5015e444ee0/1f8bf493-1be8-440e-b5ac-1b2985346176/NG-en-20230508-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+}
+.body {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.banner h1 {
+  font-size: 64px;
+}
+.text-container {
+  width: 100%;
+  height: auto;
+}
+.text-content {
+  /* display: flex; */
+  padding: 90px 100px 100px;
+  /* justify-content: center;
+  align-items: center; */
+  text-align: left;
+}
+
+.txt{
+    margin-top: 16px;
+}
+.txt p{
+    font-size: 24px;
+    font-weight: 500;
+}
+.txt h3{
+    font-size: 20px;
+    font-weight: 400;
+}
