@@ -172,39 +172,69 @@ button {
   font-weight: 600;
 }
 .sign-in1 {
-    color: white;
-    display: absolute;
-    top: 1;
+  color: white;
+  display: absolute;
+  top: 1;
 }
-.ico{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.s1{
-    padding: 12px 136px;
-}
-.s1all{
-    display: flex;
-    align-items: center;
-
-}
-.s1all .s1-head{
-font-size: 48px;
-font-weight: 900;
+.ico {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.s1all .s1-head2{
-    font-size: 20px;
-    font-weight: 500;
-    padding-top: 20px;
-    }
+.s1 {
+  padding: 12px 136px;
+}
+.s1all {
+  display: flex;
+  align-items: center;
+}
+.s1all .s1-head {
+  font-size: 48px;
+  font-weight: 900;
+}
 
-    .s1all img{
-        width: 48%;
-        height: auto;
-        position: relative;
-        top: 0;
-        left: 10px;
-    }
+.s1all .s1-head2 {
+  font-size: 20px;
+  font-weight: 500;
+  padding-top: 20px;
+}
+
+.s1all img {
+  width: 48%;
+  height: auto;
+  position: relative;
+  top: 0;
+  left: 10px;
+}
+
+.body2 {
+  margin-top: 52px;
+}
+.faq-head1 {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.faq-q {
+  margin-bottom: 8px;
+  color: white;
+  width: 1053px;
+  height: 84px;
+  background-color: rgba(19, 33, 68, 1);
+}
+
+.for_buttons ul li {
+  list-style-type: none;
+}
+
+.faq-q button {
+  background-color: transparent;
+  border: none;
+  color: white;
+}
+
+._svg {
+  color: white;
+}
+
