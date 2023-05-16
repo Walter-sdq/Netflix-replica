@@ -1,3 +1,5 @@
+@import url(./gra_bg.css);
+
 * {
   padding: 0;
   margin: 0;
@@ -5,7 +7,8 @@
 }
 
 body {
-  font-family: "Netflix-sans", "poppins";
+  font-family: "Netflix sans", "poppins", "Helvetica Neue", "Segoe UI", "Roboto",
+    "Ubuntu", sans-serif;
   background-color: #00081d;
   color: white;
   /* background-image: linear-gradient(
@@ -208,6 +211,7 @@ button {
   left: 10px;
 }
 
+/* faq */
 .body2 {
   margin-top: 52px;
 }
@@ -215,31 +219,60 @@ button {
   font-size: 40px;
   font-weight: 700;
 }
-
+.for_buttons ul li {
+  list-style-type: none;
+}
 .faq-q {
+  font-size: 24px;
+  font-family: "Netflix sans";
+  margin-bottom: 8px;
+  /* margin-right: 0px; */
+  color: white;
+  width: 1023px;
+  height: 84px;
+  background-color: rgba(19, 33, 68, 1);
+}
+
+ .faq-q ._button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 24px;
+}
+
+
+
+
+
+/*
+._svg {
+  color: white;
+  width: 24px;
+  height: 24px;
+  font-size: 80px;
+}
+
+.faq-q div {
+  display: flex;
+  align-items: center;
+  
+
+  justify-content: center; 
+}
+
+.faq-q div button {
+  display: flex;
+  
+  align-items: center;
+} */
+
+/* ._buttons{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   margin-bottom: 8px;
   color: white;
   width: 1053px;
   height: 84px;
   background-color: rgba(19, 33, 68, 1);
-}
-
-.for_buttons ul li {
-  list-style-type: none;
-}
-
-.faq-q button {
-  background-color: transparent;
-  border: none;
-  color: white;
-}
-
-._svg {
-  color: white;
-}
-
-.faq-q h3{
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
+} */

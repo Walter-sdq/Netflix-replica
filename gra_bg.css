@@ -1,0 +1,55 @@
+.gra_bg {
+  background-image: linear-gradient(
+    65.68deg,
+    rgba(0, 8, 29, 0.6) 9.51%,
+    rgba(53, 13, 49, 0.6) 72.89%,
+    rgba(132, 5, 25, 0.6) 101.01%
+  );
+  /* linear-gradient(
+      102.21deg,
+      rgba(0, 0, 0, 0.04) 16.09%,
+      rgba(1, 1, 1, 0.17) 39.27%,
+      rgba(1, 1, 1, 0.24) 64.25%,
+      rgba(4, 4, 4, 0.8) 96.63%
+    ), */
+
+  /* background-color: aliceblue; */
+  /* 
+  border-radius: 16px;
+  width: 1268px; */
+  /* display: flex;
+  justify-content: space-around;
+  align-items: center; */
+}
+
+.lines {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1000px;
+  height: 20px;
+  background-color: #ffffff27;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  color: white; padding: 12px 0px;
+  color: rgba(255, 255, 255, 0.7);;
+}
+.footer a{
+  color:  rgba(255, 255, 255, 0.7);
+  font-size: 14px;
+  font-weight: 400;
+}
+.ask_us{
+  padding: 12px 0px;
+  color: rgba(255, 255, 255, 0.7);;
+}
+.ask_us a{
+  color: rgba(255, 255, 255, 0.7);;
+}
+._more{
+ 
+}
+._more1
